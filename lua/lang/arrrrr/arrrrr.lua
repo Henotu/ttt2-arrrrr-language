@@ -3,17 +3,17 @@
 local L = LANG.CreateLanguage("ARRRRR")
 
 -- General text used in various places
-L.traitor = "Traitor"
+L.traitor = "Traitarrrrr"
 L.detective = "Detective"
 L.innocent = "Innocent"
 L.last_words = "Last Words"
 
-L.terrorists = "Terrorists"
+L.terrorists = "Piraten"
 L.spectators = "Spectators"
 
 L.noteam = "NO TEAM"
 L.innocents = "TEAM Innocents"
-L.traitors = "TEAM Traitors"
+L.traitors = "TEAM Traitarrrrr"
 
 -- role description
 L.ttt2_desc_none = "Currently you don't have a role!"
