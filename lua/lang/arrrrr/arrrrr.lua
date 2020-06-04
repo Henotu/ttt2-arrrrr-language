@@ -217,7 +217,7 @@ L.search_dmg_stab = "They were stabbed and cut before quickly bleeding to death.
 L.search_dmg_burn = "Smells like roasted terrorist around here..."
 L.search_dmg_tele = "It looks like their DNA was scrambled by tachyon emissions!"
 L.search_dmg_car = "When this terrorist crossed the road, they were run over by a reckless driver."
-L.search_dmg_other = "You cannot find a specific cause of this terrorist's death."
+L.search_dmg_other = "Woran ist er wohl gestorben, LA1? Man weiß es nicht"
 
 L.search_weapon = "It appears a {weapon} was used to kill them."
 L.search_head = "The fatal wound was a headshot. No time to scream."
@@ -236,8 +236,8 @@ L.sb_mapchange = "Map changes in {num} rounds or in {time}"
 
 L.sb_sortby = "Sort By:"
 
-L.sb_mia = "Missing In Action"
-L.sb_confirmed = "Confirmed Dead"
+L.sb_mia = "Hä? Was ist den mit ... los?"
+L.sb_confirmed = "Sicherlich tot"
 
 L.sb_ping = "Ping"
 L.sb_deaths = "Deaths"
@@ -246,11 +246,11 @@ L.sb_karma = "Karma"
 
 L.sb_info_help = "Search this player's body, and you can review the results here."
 
-L.sb_tag_friend = "FRIEND"
+L.sb_tag_friend = "FREUNDLICH"
 L.sb_tag_susp = "SUSPECT"
-L.sb_tag_avoid = "AVOID"
-L.sb_tag_kill = "KILL"
-L.sb_tag_miss = "MISSING"
+L.sb_tag_avoid = "MEIDEN"
+L.sb_tag_kill = "TÖTEN!"
+L.sb_tag_miss = "VERLOREN"
 
 -- Help and settings menu (F1)
 
@@ -524,16 +524,16 @@ L.magnet_help = "{primaryfire} to attach body to surface."
 L.grenade_smoke = "Smoke grenade"
 L.grenade_fire = "Incendiary grenade"
 
-L.unarmed_name = "Holstered"
-L.crowbar_name = "Crowbar"
-L.pistol_name = "Pistol"
-L.rifle_name = "Rifle"
-L.shotgun_name = "Shotgun"
+L.unarmed_name = "Unbewaffnet"
+L.crowbar_name = "Crobarrrrr"
+L.pistol_name = "Pistole"
+L.rifle_name = "Sniper"
+L.shotgun_name = "Schrotflinte"
 
 -- Teleporter
 L.tele_name = "Teleporter"
-L.tele_failed = "Teleport failed."
-L.tele_marked = "Teleport location marked."
+L.tele_failed = "Die Reise durch das Raum-Zeit-Kontinuum ist fehlgeschlagen"
+L.tele_marked = "Position markiert, bereit zum Warp-Sprung"
 
 L.tele_no_ground = "Cannot teleport unless standing on solid ground!"
 L.tele_no_crouch = "Cannot teleport while crouched!"
@@ -551,14 +551,14 @@ Teleporting makes noise, and the
 number of uses is limited.]]
 
 -- Ammo names, shown when picked up
-L.ammo_pistol = "9mm ammo"
+L.ammo_pistol = "9mm Munition"
 
-L.ammo_smg1 = "SMG ammo"
-L.ammo_buckshot = "Shotgun ammo"
-L.ammo_357 = "Rifle ammo"
-L.ammo_alyxgun = "Deagle ammo"
-L.ammo_ar2altfire = "Flare ammo"
-L.ammo_gravity = "Poltergeist ammo"
+L.ammo_smg1 = "SMG Munition"
+L.ammo_buckshot = "Shotgun Munition"
+L.ammo_357 = "Rifle Munition"
+L.ammo_alyxgun = "Deagle Munition"
+L.ammo_ar2altfire = "Leucht Munition"
+L.ammo_gravity = "Poltergeist Munition"
 
 
 -- HUD interface text
@@ -570,23 +570,23 @@ L.round_active = "In progress"
 L.round_post = "Round over"
 
 -- Health, ammo and time area
-L.overtime = "OVERTIME"
-L.hastemode = "HASTE MODE"
+L.overtime = "VERLÄNGERUNG"
+L.hastemode = "BEEILUNG"
 
 -- TargetID health status
-L.hp_healthy = "Healthy"
-L.hp_hurt = "Hurt"
-L.hp_wounded = "Wounded"
-L.hp_badwnd = "Badly Wounded"
-L.hp_death = "Near Death"
+L.hp_healthy = "Kerngesund"
+L.hp_hurt = "Ein kleiner Kartzer"
+L.hp_wounded = "Verletzt"
+L.hp_badwnd = "Schwerverletzt"
+L.hp_death = "Einigen wir uns auf Unentschieden"
 
 
 -- TargetID karma status
-L.karma_max = "Reputable"
-L.karma_high = "Crude"
-L.karma_med = "Trigger-happy"
-L.karma_low = "Dangerous"
-L.karma_min = "Liability"
+L.karma_max = "Verlässlich"
+L.karma_high = "Roh"
+L.karma_med = "Amerikanische Polizei"
+L.karma_low = "Gefährlich"
+L.karma_min = "Haftung"
 
 -- TargetID misc
 L.corpse = "Corpse"
@@ -781,7 +781,7 @@ L.tip40 = "If it says 'HASTE MODE' above the round timer, the round will at firs
 
 -- Round report
 
-L.report_title = "Round report"
+L.report_title = "Einsicht"
 
 -- Tabs
 L.report_tab_hilite = "Highlights"
@@ -805,7 +805,7 @@ L.hilite_win_innocents = "THE INNOCENTS WIN"
 L.hilite_players1 = "{numplayers} players took part, {numtraitors} were traitors"
 L.hilite_players2 = "{numplayers} players took part, one of them the traitor"
 
-L.hilite_duration = "The round lasted {time}"
+L.hilite_duration = "Die Runde dauerte {time}, das sind {time} zu viel"
 
 -- Columns
 L.col_time = "Time"
