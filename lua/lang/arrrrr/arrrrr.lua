@@ -820,7 +820,7 @@ L.col_total = "Total points"
 -- Name of a trap that killed us that has not been named by the mapper -TODO
 L.something = "something"
 
--- Kill events -TODO
+-- Kill events
 L.ev_blowup = "{victim} hat Bumm gemacht"
 L.ev_blowup_trap = "{victim} hat Bumm gemacht aufgrund von {trap}"
 
