@@ -1,8 +1,6 @@
--- English language strings
-
 local L = LANG.CreateLanguage("ARRRRR")
 
--- General text used in various places
+-- General text used in various places -TODO
 L.traitor = "Traitarrrrr"
 L.detective = "Detective"
 L.innocent = "Innocent"
@@ -15,13 +13,13 @@ L.noteam = "NO TEAM"
 L.innocents = "TEAM Innocents"
 L.traitors = "TEAM Traitarrrrr"
 
--- role description
+-- role description -TODO
 L.ttt2_desc_none = "Currently you don't have a role!"
 L.ttt2_desc_innocent = "Your goal is to survive the Traitors!"
 L.ttt2_desc_traitor = "Kill every other role with the help of the Traitorshop ([C])!"
 L.ttt2_desc_detective = "You are a Detective! Help the Innocents to survive or to find the Traitors!"
 
--- Round status messages
+-- Round status messages -TODO
 L.round_minplayers = "Not enough players to start a new round..."
 L.round_voting = "Vote in progress, delaying new round by {num} seconds..."
 L.round_begintime = "A new round begins in {num} seconds. Prepare yourself."
@@ -42,20 +40,20 @@ L.limit_round = "Round limit reached. The next map will load soon."
 L.limit_time = "Time limit reached. The next map will load soon."
 L.limit_left = "{num} round(s) or {time} minutes remaining before the map changes."
 
--- Credit awards
+-- Credit awards -TODO
 L.credit_all = "Your team have been awarded {num} equipment credit(s) for your performance."
 
 L.credit_kill = "You have received {num} credit(s) for killing a {role}."
 
--- Karma
+-- Karma -TODO
 L.karma_dmg_full = "Your Karma is {amount}, so you deal full damage this round!"
 L.karma_dmg_other = "Your Karma is {amount}. As a result all damage you deal is reduced by {num}%"
 
--- Body identification messages
+-- Body identification messages -TODO
 L.body_found = "{finder} found the body of {victim}. {role}"
 L.body_found_team = "{finder} found the body of {victim}. {role} ({team})"
 
--- The {role} in body_found will be replaced by one of the following:
+-- The {role} in body_found will be replaced by one of the following: -TODO
 L.body_found_traitor = "They were a Traitor!"
 L.body_found_det = "They were a Detective."
 L.body_found_inno = "They were Innocent."
@@ -68,15 +66,15 @@ L.body_call_error = "You must confirm the death of this player before calling a 
 L.body_burning = "Ouch! This corpse is on fire!"
 L.body_credits = "You found {num} credit(s) on the body!"
 
--- Menus and windows
+-- Menus and windows -TODO
 L.close = "Close"
 L.cancel = "Cancel"
 
--- For navigation buttons
+-- For navigation buttons -TODO
 L.next = "Next"
 L.prev = "Previous"
 
--- Equipment buying menu
+-- Equipment buying menu -TODO
 L.equip_title = "Equipment"
 L.equip_tabtitle = "Order Equipment"
 
@@ -104,7 +102,7 @@ L.equip_confirm = "Buy equipment"
 
 L.equip_not_alive = "You can view all available items by selecting a role on the right. Don't forget to mark your favorites!"
 
--- Disguiser tab in equipment menu
+-- Disguiser tab in equipment menu -TODO
 L.disg_name = "Disguiser"
 L.disg_menutitle = "Disguise control"
 L.disg_not_owned = "You are not carrying a Disguiser!"
@@ -113,7 +111,7 @@ L.disg_enable = "Enable disguise"
 L.disg_help1 = "When your disguise is active, your name, health and karma do not show when someone looks at you. In addition, you will be hidden from a Detective's radar."
 L.disg_help2 = "Press Numpad Enter to toggle the disguise without using the menu. You can also bind a different key to 'ttt_toggle_disguise' using the console."
 
--- Radar tab in equipment menu
+-- Radar tab in equipment menu -TODO
 L.radar_name = "Radar"
 L.radar_menutitle = "Radar control"
 L.radar_not_owned = "You are not carrying a Radar!"
@@ -122,7 +120,7 @@ L.radar_auto = "Auto-repeat scan"
 L.radar_help = "Scan results show for {num} seconds, after which the Radar will have recharged and can be used again."
 L.radar_charging = "Your Radar is still charging!"
 
--- Transfer tab in equipment menu
+-- Transfer tab in equipment menu -TODO
 L.xfer_name = "Transfer"
 L.xfer_menutitle = "Transfer credits"
 L.xfer_no_credits = "You have no credits to give!"
@@ -134,19 +132,19 @@ L.xfer_no_credits = "Insufficient credits for transfer."
 L.xfer_success = "Credit transfer to {player} completed."
 L.xfer_received = "{player} has given you {num} credit."
 
--- Reroll tab in equipment menu
+-- Reroll tab in equipment menu -TODO
 L.reroll_name = "Reroll"
 L.reroll_menutitle = "Reroll Items"
 L.reroll_no_credits = "You need {amount} credits to reroll!"
 L.reroll_button = "Reroll"
 L.reroll_help = "Use {amount} credits to get new items in your shop!"
 
--- Radio tab in equipment menu
+-- Radio tab in equipment menu -TODO
 L.radio_name = "Radio"
 L.radio_help = "Click a button to make your Radio play that sound."
 L.radio_notplaced = "You must place the Radio to play sound on it."
 
--- Radio soundboard buttons
+-- Radio soundboard buttons -TODO
 L.radio_button_scream = "Scream"
 L.radio_button_expl = "Explosion"
 L.radio_button_pistol = "Pistol shots"
@@ -161,10 +159,10 @@ L.radio_button_burn = "Burning"
 L.radio_button_steps = "Footsteps"
 
 
--- Intro screen shown after joining
+-- Intro screen shown after joining -TODO
 L.intro_help = "If you're new to the game, press F1 for instructions!"
 
--- Radiocommands/quickchat
+-- Radiocommands/quickchat -TODO
 L.quick_title = "Quickchat keys"
 
 L.quick_yes = "Yes."
@@ -181,20 +179,20 @@ L.radio_pickup_wrong_team = "You can't pick up the radio from another team."
 L.radio_short_desc = "Weapon sounds are music to me"
 
 -- {player} in the quickchat text normally becomes a player nickname, but can
--- also be one of the below.  Keep these lowercase.
+-- also be one of the below.  Keep these lowercase. -TODO
 L.quick_nobody = "nobody"
 L.quick_disg = "someone in disguise"
 L.quick_corpse = "an unidentified body"
 L.quick_corpse_id = "{player}'s corpse"
 
 
--- Body search window
+-- Body search window -TODO
 L.search_title = "Body Search Results"
 L.search_info = "Information"
 L.search_confirm = "Confirm Death"
 L.search_call = "Call Detective"
 
--- Descriptions of pieces of information found
+-- Descriptions of pieces of information found -TODO
 L.search_nick = "This is the body of {player}."
 
 L.search_role_traitor = "This person was a Traitor!"
@@ -230,7 +228,7 @@ L.search_kills2 = "You found a list of kills with these names:"
 L.search_eyes = "Using your detective skills, you identified the last person they saw: {player}. The killer, or a coincidence?"
 
 
--- Scoreboard
+-- Scoreboard -TODO
 L.sb_playing = "You are playing on..."
 L.sb_mapchange = "Map changes in {num} rounds or in {time}"
 
@@ -252,18 +250,18 @@ L.sb_tag_avoid = "AVOID"
 L.sb_tag_kill = "KILL"
 L.sb_tag_miss = "MISSING"
 
--- Help and settings menu (F1)
+-- Help and settings menu (F1) -TODO
 
 L.help_title = "Help and Settings"
 
--- Tabs
+-- Tabs -TODO
 L.help_tut = "Tutorial"
 L.help_tut_tip = "How TTT works, in 6 steps"
 
 L.help_settings = "Settings"
 L.help_settings_tip = "Client-side settings"
 
--- Settings
+-- Settings -TODO
 L.set_title_gui = "Interface settings"
 
 L.set_tips = "Show gameplay tips at the bottom of the screen while spectating"
@@ -298,13 +296,13 @@ L.set_mute_tip = "Enable to mute living players while you are dead/spectator."
 L.set_title_lang = "Language settings"
 
 -- It may be best to leave this next one english, so english players can always
--- find the language setting even if it's set to a language they don't know.
+-- find the language setting even if it's set to a language they don't know. -TODO
 L.set_lang = "Select language:"
 
 
--- Weapons and equipment, HUD and messages
+-- Weapons and equipment, HUD and messages -TODO
 
--- Equipment actions, like buying and dropping
+-- Equipment actions, like buying and dropping -TODO
 L.buy_no_stock = "This weapon is out of stock: you already bought it this round."
 L.buy_pending = "You already have an order pending, wait until you receive it."
 L.buy_received = "You have received your special equipment."
@@ -317,7 +315,7 @@ L.pickup_pending = "You already picked up a weapon, wait until you receive it"
 L.disg_turned_on = "Disguise enabled!"
 L.disg_turned_off = "Disguise disabled."
 
--- Equipment item descriptions
+-- Equipment item descriptions -TODO
 L.item_passive = "Passive effect item"
 L.item_active = "Active use item"
 L.item_weapon = "Weapon"
@@ -341,7 +339,7 @@ being the person last seen by a victim.
 Toggle in the Disguise tab of this menu
 or press Numpad Enter.]]
 
--- C4
+-- C4 -TODO
 L.c4_hint = "Press {usekey} to arm or disarm."
 L.c4_no_disarm = "You cannot disarm another Traitor's C4 unless they are dead."
 L.c4_disarm_warn = "A C4 explosive you planted has been disarmed."
@@ -371,7 +369,7 @@ L.c4_disarm_other = "Cut a safe wire to disarm the bomb. It will explode if you 
 L.c4_status_armed = "ARMED"
 L.c4_status_disarmed = "DISARMED"
 
--- Visualizer
+-- Visualizer -TODO
 L.vis_name = "Visualizer"
 L.vis_hint = "Press {usekey} to pick up (Detectives only)."
 
@@ -384,7 +382,7 @@ Analyzes a corpse to show how
 the victim was killed, but only if
 they died of gunshot wounds.]]
 
--- Decoy
+-- Decoy -TODO
 L.decoy_name = "Decoy"
 L.decoy_no_room = "You cannot carry this decoy."
 L.decoy_broken = "Your Decoy has been destroyed!"
@@ -399,7 +397,7 @@ and makes the DNA scanner show the
 location of the Decoy if someone scans
 for your DNA.]]
 
--- Defuser
+-- Defuser -TODO
 L.defuser_name = "Defuser"
 L.defuser_help = "{primaryfire} defuses targeted C4."
 
@@ -408,7 +406,7 @@ Instantly defuse a C4 explosive.
 Unlimited uses. C4 will be easier to
 notice if you carry this.]]
 
--- Flare gun
+-- Flare gun -TODO
 L.flare_name = "Flare gun"
 L.flare_desc = [[
 Can be used to burn corpses so that
@@ -416,7 +414,7 @@ they are never found. Limited ammo.
 Burning a corpse makes a distinct
 sound.]]
 
--- Health station
+-- Health station -TODO
 L.hstation_name = "Health Station"
 L.hstation_subtitle = "Press [{usekey}] to receive health."
 L.hstation_charge = "Remaining charge of health station: {charge}"
@@ -433,7 +431,7 @@ Slow recharge. Anyone can use it, and
 it can be damaged. Can be checked for
 DNA samples of its users.]]
 
--- Knife
+-- Knife -TODO
 L.knife_name = "Knife"
 L.knife_thrown = "Thrown knife"
 
@@ -442,14 +440,14 @@ Kills wounded targets instantly and
 silently, but only has a single use.
 Can be thrown using alternate fire.]]
 
--- Poltergeist
+-- Poltergeist -TODO
 L.polter_desc = [[
 Plants thumpers on objects to shove
 them around violently.
 The energy bursts damage people in
 close proximity.]]
 
--- Radio
+-- Radio -TODO
 L.radio_broken = "Your Radio has been destroyed!"
 L.radio_help_pri = "{primaryfire} places the Radio."
 
@@ -459,7 +457,7 @@ Place the radio somewhere, and then
 play sounds on it using the Radio tab
 in this menu.]]
 
--- Silenced pistol
+-- Silenced pistol -TODO
 L.sipistol_name = "Silenced Pistol"
 
 L.sipistol_desc = [[
@@ -467,14 +465,14 @@ Low-noise handgun, uses normal pistol
 ammo.
 Victims will not scream when killed.]]
 
--- Newton launcher
+-- Newton launcher -TODO
 L.newton_name = "Newton launcher"
 
 L.newton_desc = [[
 Push people from a safe distance.
 Infinite ammo, but slow to fire.]]
 
--- Binoculars
+-- Binoculars -TODO
 L.binoc_name = "Binoculars"
 L.binoc_desc = [[
 Zoom in on corpses and identify them
@@ -485,13 +483,13 @@ takes a few seconds.]]
 L.binoc_help_pri = "{primaryfire} identifies a body."
 L.binoc_help_sec = "{secondaryfire} changes zoom level."
 
--- UMP
+-- UMP -TODO
 L.ump_desc = [[
 Experimental SMG that disorients
 targets.
 Uses standard SMG ammo.]]
 
--- DNA scanner
+-- DNA scanner -TODO
 L.dna_name = "DNA scanner"
 L.dna_notfound = "No DNA sample found on target."
 L.dna_limit = "Storage limit reached. Remove old samples to add new ones."
@@ -516,11 +514,11 @@ and track them down.]]
 L.dna_help_primary = "{primaryfire} to collect a DNA sample"
 L.dna_help_secondary = "{secondaryfire} to switch the DNA slot and Reload to delete a sample"
 
--- Magneto stick
+-- Magneto stick -TODO
 L.magnet_name = "Magneto-stick"
 L.magnet_help = "{primaryfire} to attach body to surface."
 
--- Grenades and misc
+-- Grenades and misc -TODO
 L.grenade_smoke = "Smoke grenade"
 L.grenade_fire = "Incendiary grenade"
 
@@ -530,7 +528,7 @@ L.pistol_name = "Pistol"
 L.rifle_name = "Rifle"
 L.shotgun_name = "Shotgun"
 
--- Teleporter
+-- Teleporter -TODO
 L.tele_name = "Teleporter"
 L.tele_failed = "Teleport failed."
 L.tele_marked = "Teleport location marked."
@@ -550,7 +548,7 @@ Teleport to a previously marked spot.
 Teleporting makes noise, and the
 number of uses is limited.]]
 
--- Ammo names, shown when picked up
+-- Ammo names, shown when picked up -TODO
 L.ammo_pistol = "9mm ammo"
 
 L.ammo_smg1 = "SMG ammo"
@@ -563,17 +561,17 @@ L.ammo_gravity = "Poltergeist ammo"
 
 -- HUD interface text
 
--- Round status
+-- Round status -TODO
 L.round_wait = "Waiting"
 L.round_prep = "Preparing"
 L.round_active = "In progress"
 L.round_post = "Round over"
 
--- Health, ammo and time area
+-- Health, ammo and time area -TODO
 L.overtime = "OVERTIME"
 L.hastemode = "HASTE MODE"
 
--- TargetID health status
+-- TargetID health status -TODO
 L.hp_healthy = "Healthy"
 L.hp_hurt = "Hurt"
 L.hp_wounded = "Wounded"
@@ -581,14 +579,14 @@ L.hp_badwnd = "Badly Wounded"
 L.hp_death = "Near Death"
 
 
--- TargetID karma status
+-- TargetID karma status -TODO
 L.karma_max = "Reputable"
 L.karma_high = "Crude"
 L.karma_med = "Trigger-happy"
 L.karma_low = "Dangerous"
 L.karma_min = "Liability"
 
--- TargetID misc
+-- TargetID misc -TODO
 L.corpse = "Corpse"
 L.corpse_hint = "Press [{usekey}] to search. [{walkkey} + {usekey}] to search covertly."
 L.corpse_too_far_away = "The corpse is too far away."
@@ -616,7 +614,7 @@ L.target_switch_weapon_nospace = "There is no inventory slot available for this 
 L.target_switch_drop_weapon_info = "Dropping {name} from slot {slot}"
 L.target_switch_drop_weapon_info_noslot = "There is no droppable weapon in slot {slot}"
 
--- HUD buttons with hand icons that only some roles can see and use
+-- HUD buttons with hand icons that only some roles can see and use -TODO
 L.tbut_single = "Single use"
 L.tbut_reuse = "Reusable"
 L.tbut_retime = "Reusable after {num} sec"
@@ -633,18 +631,18 @@ L.tbut_allow = "Allow"
 L.tbut_prohib = "Prohibit"
 L.tbut_default = "Default"
 
--- Equipment info lines (on the left above the health/ammo panel)
+-- Equipment info lines (on the left above the health/ammo panel) -TODO
 L.disg_hud = "Disguised. Your name is hidden."
 L.radar_hud = "Radar ready for next scan in: {time}"
 
--- Spectator muting of living/dead
+-- Spectator muting of living/dead -TODO
 L.mute_living = "Living players muted"
 L.mute_specs = "Spectators muted"
 L.mute_all = "All muted"
 L.mute_off = "None muted"
 L.mute_team = "{team} muted."
 
--- Spectators and prop possession
+-- Spectators and prop possession -TODO
 L.punch_title = "PUNCH-O-METER"
 L.punch_help = "Move keys or jump: punch object. Crouch: leave object."
 L.punch_bonus = "Your bad score lowered your punch-o-meter limit by {num}"
@@ -656,7 +654,7 @@ L.spec_help2 = "To leave the spectator mode, open the menu by pressing {helpkey}
 -- Info popups shown when the round starts
 
 -- These are spread over multiple lines, hence the square brackets instead of
--- quotes. That's a Lua thing. Every line break (enter) will show up in-game.
+-- quotes. That's a Lua thing. Every line break (enter) will show up in-game. -TODO
 L.info_popup_innocent = [[You are an innocent Terrorist! But there are traitors around...
 Who can you trust, and who is out to fill you with bullets?
 Watch your back and work with your comrades to get out of this alive!]]
@@ -676,7 +674,7 @@ These are your comrades:
 {traitorlist}
 Press {menukey} to receive your special equipment!]]
 
--- Various other text
+-- Various other text -TODO
 L.name_kick = "A player was automatically kicked for changing their name during a round."
 
 L.idle_popup = [[You were idle for {num} seconds and were moved into Spectator-only mode as a result. While you are in this mode, you will not spawn when a new round starts.
@@ -692,17 +690,17 @@ L.spec_mode_warning = "You are in Spectator Mode and will not spawn when a round
 
 -- Tips, shown at bottom of screen to spectators
 
--- Tips panel
+-- Tips panel -TODO
 L.tips_panel_title = "Tips"
 L.tips_panel_tip = "Tip:"
 
--- Tip texts
+-- Tip texts -TODO
 
-L.tip1 = "Traitors can search a corpse silently, without confirming the death, by holding {walkkey} and pressing {usekey} on the corpse."
+L.tip1 = "Versuch nicht zu sterben."
 
-L.tip2 = "Arming a C4 explosive with a longer timer will increase the number of wires that cause it to explode instantly when an innocent attempts to disarm it. It will also beep softer and less often."
+L.tip2 = "Fabian lügt in 99,99% der Fälle nicht."
 
-L.tip3 = "Detectives can search a corpse to find who is 'reflected in its eyes'. This is the last person the dead guy saw. That does not have to be the killer if they were shot in the back."
+L.tip3 = "Dieser Tipp ist der map ttt_explosive_barrel gewidmet. Ruhe in Frieden."
 
 L.tip4 = "No one will know you have died until they find your dead body and identify you by searching it."
 
@@ -779,11 +777,11 @@ L.tip39 = "C4 that explodes due to a mistake in disarming it has a smaller explo
 L.tip40 = "If it says 'HASTE MODE' above the round timer, the round will at first be only a few minutes long, but with every death the available time increases (like capturing a point in TF2). This mode puts the pressure on the traitors to keep things moving."
 
 
--- Round report
+-- Round report -TODO
 
 L.report_title = "Round report"
 
--- Tabs
+-- Tabs -TODO
 L.report_tab_hilite = "Highlights"
 L.report_tab_hilite_tip = "Round highlights"
 L.report_tab_events = "Events"
@@ -791,13 +789,13 @@ L.report_tab_events_tip = "Log of the events that happened this round"
 L.report_tab_scores = "Scores"
 L.report_tab_scores_tip = "Points scored by each player in this round alone"
 
--- Event log saving
+-- Event log saving -TODO
 L.report_save = "Save Log .txt"
 L.report_save_tip = "Saves the Event Log to a text file"
 L.report_save_error = "No Event Log data to save."
 L.report_save_result = "The Event Log has been saved to:"
 
--- Big title window
+-- Big title window -TODO
 L.hilite_win_traitors = "THE TRAITORS WIN"
 L.hilite_win_bees = "THE BEES WIN"
 L.hilite_win_innocents = "THE INNOCENTS WIN"
@@ -807,7 +805,7 @@ L.hilite_players2 = "{numplayers} players took part, one of them the traitor"
 
 L.hilite_duration = "The round lasted {time}"
 
--- Columns
+-- Columns -TODO
 L.col_time = "Time"
 L.col_event = "Event"
 L.col_player = "Player"
@@ -819,51 +817,51 @@ L.col_points = "Points"
 L.col_team = "Team bonus"
 L.col_total = "Total points"
 
--- Name of a trap that killed us that has not been named by the mapper
+-- Name of a trap that killed us that has not been named by the mapper -TODO
 L.something = "something"
 
--- Kill events
-L.ev_blowup = "{victim} blew themselves up"
-L.ev_blowup_trap = "{victim} was blown up by {trap}"
+-- Kill events -TODO
+L.ev_blowup = "{victim} hat Bumm gemacht"
+L.ev_blowup_trap = "{victim} hat Bumm gemacht aufgrund von {trap}"
 
-L.ev_tele_self = "{victim} telefragged themselves"
-L.ev_sui = "{victim} couldn't take it and killed themselves"
-L.ev_sui_using = "{victim} killed themselves using {tool}"
+L.ev_tele_self = "Jemand hat sich in {victim} teleportiert"
+L.ev_sui = "{victim} konnte dem Druck des TTT-Umfragebots nicht mehr standhalten"
+L.ev_sui_using = "{victim} dachte, {tool} wäre der Nachname von Obama"
 
-L.ev_fall = "{victim} fell to their death"
-L.ev_fall_pushed = "{victim} fell to their death after {attacker} pushed them"
-L.ev_fall_pushed_using = "{victim} fell to their death after {attacker} used {trap} to push them"
+L.ev_fall = "{victim} yote himself of that building"
+L.ev_fall_pushed = "{victim} wurde von {attacker} mithilfe von \"BOTTOM TEXT\" getötet"
+L.ev_fall_pushed_using = "{victim} wurde von {attacker} mithilfe von \"UNTEN TEKST\" und {trap} getötet"
 
-L.ev_shot = "{victim} was shot by {attacker}"
-L.ev_shot_using = "{victim} was shot by {attacker} using a {weapon}"
+L.ev_shot = "{victim} wurde von {attacker} in einen schweizer Käse verwandelt"
+L.ev_shot_using = "{attacker} hat gebrauch der amerikanischen Freiheit gemacht, um {victim} mithilfe der {weapon} zu töten"
 
-L.ev_drown = "{victim} was drowned by {attacker}"
-L.ev_drown_using = "{victim} was drowned by {trap} triggered by {attacker}"
+L.ev_drown = "{victim} wurde von {attacker} über Bord geworfen"
+L.ev_drown_using = "{victim} wurde mithilfe von {trap} durch {attacker} über Bord geworfen"
 
-L.ev_boom = "{victim} was exploded by {attacker}"
+L.ev_boom = "{attacker} hat zu Schwarzpulver benutzt, um {victim} zu töten"
 L.ev_boom_using = "{victim} was blown up by {attacker} using {trap}"
 
-L.ev_burn = "{victim} was fried by {attacker}"
-L.ev_burn_using = "{victim} was burned by {trap} due to {attacker}"
+L.ev_burn = "{victim} wurde von {attacker} fritiert"
+L.ev_burn_using = "{victim} hat sich an {trap} verbrannt. Hätte {attacker} nur besser aufgepasst. Anzeige ist raus."
 
-L.ev_club = "{victim} was beaten up by {attacker}"
-L.ev_club_using = "{victim} was pummeled to death by {attacker} using {trap}"
+L.ev_club = "{attacker} hat {victim} eine Bombe gegeben"
+L.ev_club_using = "{attacker} hat {trap} von Zalando bestellt, um {victim} zu töten"
 
-L.ev_slash = "{victim} was stabbed by {attacker}"
-L.ev_slash_using = "{victim} was cut up by {attacker} using {trap}"
+L.ev_slash = "{attacker} hat {victim} aufgeschlitzt "
+L.ev_slash_using = "{victim} ist durch {attacker} using {trap}"
 
-L.ev_tele = "{victim} was telefragged by {attacker}"
-L.ev_tele_using = "{victim} was atomized by {trap} set by {attacker}"
+L.ev_tele = "{victim} hat den krassesten MLG der Welt erlebt {attacker}"
+L.ev_tele_using = "{victim} wurde durch {trap} von {attacker} atomisiert"
 
-L.ev_goomba = "{victim} was crushed by the massive bulk of {attacker}"
+L.ev_goomba = "{victim} wurde durch den riesigen Penis von {attacker} erschlagen"
 
-L.ev_crush = "{victim} was crushed by {attacker}"
-L.ev_crush_using = "{victim} was crushed by {trap} of {attacker}"
+L.ev_crush = "Welcome do Hydraulic Press Channel. Today {attacker} killed {victim}"
+L.ev_crush_using = "{victim} wurde durch {trap} in seiner Höhe dezimiert {attacker}"
 
-L.ev_other = "{victim} was killed by {attacker}"
-L.ev_other_using = "{victim} was killed by {attacker} using {trap}"
+L.ev_other = "{victim} ist von {attacker} wegen Piraterie hingerichtet worden"
+L.ev_other_using = "{victim} wurde von {attacker} aufgrund von Piraterie mit {trap} hingerichtet"
 
--- Other events
+-- Other events -TODO
 L.ev_body = "{finder} found the corpse of {victim}"
 L.ev_c4_plant = "{player} planted C4"
 L.ev_c4_boom = "The C4 planted by {player} exploded"
@@ -876,7 +874,7 @@ L.ev_win_traitors = "The dastardly traitors won the round!"
 L.ev_win_innocents = "The lovable innocent terrorists won the round!"
 L.ev_win_time = "The traitors ran out of time and lost!"
 
--- Awards/highlights
+-- Awards/highlights -TODO
 
 L.aw_sui1_title = "Suicide Cult Leader"
 L.aw_sui1_text = "showed the other suiciders how to do it by being the first to go."
@@ -1078,22 +1076,22 @@ L.aw_tod2_text = "died right after the start of the round."
 -- version in which they were added, to make updating translations easier.
 
 
--- v23
+-- v23 -TODO
 L.set_avoid = "Avoid being selected as {role}."
 L.set_avoid_tip = "Enable this to ask the server not to select you as {role} if possible."
 
--- v24
+-- v24 -TODO
 L.drop_no_ammo = "Insufficient ammo in your weapon's clip to drop as an ammo box."
 L.drop_ammo_prevented = "Something prevents you from dropping your ammo."
 
--- v31
+-- v31 -TODO
 L.set_cross_brightness = "Crosshair brightness"
 L.set_cross_size = "Crosshair size"
 
--- 5-25-15
+-- 5-25-15 -TODO
 L.hat_retrieve = "You picked up a Detective's hat."
 
--- 2018-07-24
+-- 2018-07-24 -TODO
 L.equip_tooltip_main = "Equipment menu"
 L.equip_tooltip_radar = "Radar control"
 L.equip_tooltip_disguise = "Disguise control"
@@ -1117,7 +1115,7 @@ L.binoc_progress = "Search progress: {progress}%"
 
 L.idle_popup_title = "Idle"
 
--- 6-22-17 (Crosshair)
+-- 6-22-17 (Crosshair) -TODO
 L.set_title_cross = "Crosshair settings"
 
 L.set_cross_color_enable = "Enable custom crosshair color"
@@ -1131,7 +1129,7 @@ L.set_cross_thickness = "Crosshair thickness"
 L.set_cross_outlinethickness = "Crosshair outline thickness"
 L.set_cross_dot_enable = "Enable crosshair dot"
 
--- ttt2
+-- ttt2 -TODO
 L.create_own_shop = "Create own shop"
 L.shop_link = "Link with"
 L.shop_disabled = "Disable shop"
@@ -1219,33 +1217,33 @@ L.disable_spectatorsoutline_tip = "Disables the outlines around objects controll
 L.disable_overheadicons = "Disable role icons"
 L.disable_overheadicons_tip = "Disables the role icons over the players' heads (+Performance)"
 
--- 2020-01-04
+-- 2020-01-04 -TODO
 L.doubletap_sprint_anykey = "Continue double tap sprinting until you stop moving"
 L.doubletap_sprint_anykey_tip = "You will keep sprinting as long as you keep moving"
 
 L.disable_doubletap_sprint = "Disable double tap sprinting"
 L.disable_doubletap_sprint_tip = "Double tapping a movement key will no longer cause you to sprint"
 
--- 2020-02-03
+-- 2020-02-03 -TODO
 L.hold_aim = "Hold to aim"
 L.hold_aim_tip = "You will keep using the ironsights as long as you keep holding secondary attack (default: right mouse button)"
 
--- 2020-02-09
+-- 2020-02-09 -TODO
 L.name_door = "Door"
 L.door_open = "Press [{usekey}] to open door."
 L.door_close = "Press [{usekey}] to close door."
 L.door_locked = "This door is locked"
 
--- 2020-02-11
+-- 2020-02-11 -TODO
 L.automoved_to_spec = "(AUTOMATED MESSAGE) I have been moved to the Spectator team because I was idle/AFK."
 
--- 2020-02-16
+-- 2020-02-16 -TODO
 L.door_auto_closes = "This door closes automatically"
 L.door_open_touch = "Walk into door to open."
 L.door_open_touch_and_use = "Walk into door or press [{usekey}] to open."
 L.hud_health = "Health"
 
--- 2020-04-20
+-- 2020-04-20 -TODO
 L.item_speedrun = "Speedrun"
 L.item_speedrun_desc = [[Makes you 50% faster!]]
 L.item_no_explosion_damage = "No Explosion Damage"
@@ -1263,5 +1261,5 @@ L.item_no_prop_damage_desc = [[Makes you immune to prop damage.]]
 L.item_no_drown_damage = "No Drowning Damage"
 L.item_no_drown_damage_desc = [[Makes you immune to drowning damage.]]
 
--- 2020-05-03
+-- 2020-05-03 -TODO
 L.door_destructible = "Door is destructible ({health}HP)"

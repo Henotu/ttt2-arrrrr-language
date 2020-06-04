@@ -1,7 +1,5 @@
 L = LANG.GetLanguageTableReference("ARRRRR")
 
-PrintTable(roles.GetList())
-
 local function RoleIsValid(name) --Check if role is loaded
 	local roles = roles.GetList()
 	for _, v in pairs(roles) do
@@ -12,7 +10,7 @@ local function RoleIsValid(name) --Check if role is loaded
 	return false
 end
 
---ROLE: SPY
+--ROLE: SPY -TODO
 if RoleIsValid("spy") then
 L[SPY.name] = "Spy"
 L["info_popup_" .. SPY.name] = [[You are a spy! A spy plays in the innocent team but is shown to the traitos as their mate to confuse them.]]
@@ -26,7 +24,7 @@ L["ttt2_teamvoice_jammed_" .. SPY.name] = "You are not able to use the team voic
 L["ttt2_fakebuy_success_" .. SPY.name] = "Erfolgreich die Traitoren getrickst!"
 end
 
---ROLE: SIDEKICK
+--ROLE: SIDEKICK -TODO
 if RoleIsValid("sidekick") then
 L[SIDEKICK.name] = "Sidekick"
 L["target_" .. SIDEKICK.name] = "Sidekick"
@@ -35,7 +33,7 @@ L["body_found_" .. SIDEKICK.abbr] = "They were a Sidekick."
 L["search_role_" .. SIDEKICK.abbr] = "This person was a Sidekick!"
 end
 
---ROLE: UNKNOWN
+--ROLE: UNKNOWN -TODO
 if RoleIsValid("unknown") then
 L[UNKNOWN.name] = "Unknown"
 L["info_popup_" .. UNKNOWN.name] = [[You can decide who you want to be...
@@ -51,7 +49,7 @@ L["unknown_revival_canceled"] = "Revival Canceled"
 L["unknown_revival_canceled_text"] = "Your revival was canceled because your killer died prematurely."
 end
 
---ROLE: PHARAOH
+--ROLE: PHARAOH -TODO
 if RoleIsValid("pharaoh") then
 L[PHARAOH.name] = "Pharaoh"
 L["info_popup_" .. PHARAOH.name] = [[You are the Pharaoh!
@@ -94,7 +92,7 @@ L["ankh_insufficient_room"] = "Insufficient room."
 L["ankh_owner_is_reviving"] = "Conversion blocked - owner is reviving"
 end
 
---ROLE: NECROMANCER
+--ROLE: NECROMANCER -TODO
 if RoleIsValid("necromancer") then
 L[NECROMANCER.name] = "Necromancer"
 L[NECROMANCER.defaultTeam] = "TEAM Necromancers"
@@ -129,7 +127,7 @@ L["necrodefi_error_already_reviving"] = "You can't revive this player since they
 L["necrodefi_error_failed"] = "Revival attempt failed. Please try again."
 end
 
---ROLE: MARKER
+--ROLE: MARKER -TODO
 if RoleIsValid("marker") then
 L[MARKER.name] = "Marker"
 L[TEAM_MARKER] = "TEAM marker"
@@ -170,7 +168,7 @@ L["markerdefi_error_already_reviving"] = "You can't revive this player since the
 L["markerdefi_error_failed"] = "Revival attempt failed. Please try again."
 end
 
---ROLE: SNIFFER
+--ROLE: SNIFFER -TODO
 if RoleIsValid("sniffer") then
 L[SNIFFER.name] = "Sniffer"
 L["info_popup_" .. SNIFFER.name] = [[You are a Sniffer!
@@ -181,7 +179,7 @@ L["target_" .. SNIFFER.name] = "Sniffer"
 L["ttt2_desc_" .. SNIFFER.name] = [[The Sniffer is a Detective, working together with the other detectives]]
 end
 
---ROLE: SURVIVALIST
+--ROLE: SURVIVALIST -TODO
 if RoleIsValid("survivalist") then
 L[SURVIVALIST.name] = "Survivalist"
 L["info_popup_" .. SURVIVALIST.name] = [[You are a Survivalist!
@@ -193,7 +191,7 @@ L["ttt2_desc_" .. SURVIVALIST.name] = [[The Survivalist is a better innocent, be
 Try to protect the innocents!]]
 end
 
---ROLE: SERIALKILLER
+--ROLE: SERIALKILLER -TODO
 if RoleIsValid("serialkiller") then
 L[SERIALKILLER.name] = "Serial Killer"
 L[SERIALKILLER.defaultTeam] = "TEAM Serial Killers"
@@ -212,7 +210,7 @@ L["ttt2_role_sk_knife_primary"] = "{primaryfire} attacks a focused player"
 L["ttt2_role_sk_knife_secondary"] = "{secondaryfire} throws a shake nade"
 end
 
---ROLE: VAMPIRE
+--ROLE: VAMPIRE -TODO
 if RoleIsValid("vampire") then
 L[VAMPIRE.name] = "Taube"
 L["info_popup_" .. VAMPIRE.name] = [[Und dann hat er sich in eine Taube verwandelt,
@@ -226,7 +224,7 @@ Um sich in Taubenrichard zu verwandeln, muss zuerst im F1-Menü . To make it bal
 In Bloodlust, the vampire heals 50% of the damage he did to other players. In addition to that, he can just transform into Pigeon if he is in bloodlust. So you be also able to trigger into bloodlust, but it's not possible to undo it.]]
 end
 
---ROLE: HITMAN
+--ROLE: HITMAN -TODO
 if RoleIsValid("hitman") then
 L[HITMAN.name] = "Hitman"
 L["info_popup_" .. HITMAN.name] = [[You are a Hitman!
@@ -243,7 +241,7 @@ L["ttt2_hitman_chat_reveal"] = "'{playername}' is a Hitman!"
 L["ttt2_hitman_target_died"] = "Your target died..."
 end
 
---ROLE: INFECTED
+--ROLE: INFECTED -TODO
 if RoleIsValid("infected") then
 L[INFECTED.name] = "Infected"
 L[INFECTED.defaultTeam] = "TEAM Infecteds"
@@ -262,7 +260,7 @@ If there is a Jester, feel free to infect him.]]
 L["infected_fists_name"] = "Infected Fists"
 end
 
---ROLE: CLAIRVOYANT
+--ROLE: CLAIRVOYANT -TODO
 if RoleIsValid("clairvoyant") then
 L[CLAIRVOYANT.name] = "Clairvoyant"
 L["info_popup_" .. CLAIRVOYANT.name] = [[You are the Clairvoyant!
@@ -276,7 +274,7 @@ It's his goal to survive the traitors as an innocent.
 In combination with the SIDEKICK role and the JESTER role, you can kill the Jester as the only one and get a free sidekick.]]
 end
 
---ROLE: JACKAL
+--ROLE: JACKAL -TODO
 if RoleIsValid("jackal") then
 L[JACKAL.name] = "Jackal"
 L[JACKAL.defaultTeam] = "TEAM Jackal"
@@ -292,7 +290,7 @@ L["ttt2_desc_" .. JACKAL.name] = [[The Jackal needs to win alone or with his sid
 L["credit_" .. JACKAL.abbr .. "_all"] = "Jackals, you have been awarded {num} equipment credit(s) for your performance."
 end
 
---ROLE: JESTER
+--ROLE: JESTER -TODO
 if RoleIsValid("jester") then
 L[JESTER.name] = "Jester"
 L[JESTER.defaultTeam] = "TEAM Jesters"
@@ -323,7 +321,7 @@ L["ttt2_role_jester_winstate_6"] = "Jester winstate 6: You will respawn with the
 L["ttt2_role_jester_winstate_7"] = "Jester winstate 7: You will respawn with the role of your killer and your killer will die, unless your killer is a serialkiller or traitor."
 end
 
---ROLE: BOUNCER
+--ROLE: BOUNCER -TODO
 if RoleIsValid("bouncer") then
 L[BOUNCER.name] = "Bouncer"
 L["info_popup_" .. BOUNCER.name] = [[You're a Bouncer. Doors seem to attrackt you.
@@ -347,7 +345,7 @@ L["doorghost_now_unhaunted"] = "This door isn't haunted anymore."
 L["door_is_haunted"] = "This door is haunted"
 end
 
---ROLE: PRIEST
+--ROLE: PRIEST -TODO
 if RoleIsValid("priest") then
 L[PRIEST.name] = "Priest"
 L["info_popup_" .. PRIEST.name] = [[You are the Priest!
