@@ -339,35 +339,35 @@ being the person last seen by a victim.
 Toggle in the Disguise tab of this menu
 or press Numpad Enter.]]
 
--- C4 -TODO
-L.c4_hint = "Press {usekey} to arm or disarm."
-L.c4_no_disarm = "You cannot disarm another Traitor's C4 unless they are dead."
-L.c4_disarm_warn = "A C4 explosive you planted has been disarmed."
-L.c4_armed = "You have successfully armed the bomb."
-L.c4_disarmed = "You have successfully disarmed the bomb."
-L.c4_no_room = "You cannot carry this C4."
+-- C4
+L.c4_hint = "Drücke {usekey} zum starten der Aufnahme."
+L.c4_no_disarm = "Du kannst den Bombenprank eines anderen Traitarrrrrs nicht entschärfen."
+L.c4_disarm_warn = "Dein Bombenprank wurde zur Anzeige gepracht."
+L.c4_armed = "Du hast erfolgreich die Aufnahme für den Bombenprank gestartet."
+L.c4_disarmed = "Du hast den Bombenprank entlarvt."
+L.c4_no_room = "Du kannst den Bombenprank nicht ausführen."
 
-L.c4_desc = "Powerful timed explosive."
+L.c4_desc = "Bombenprank für die Kilcks."
 
-L.c4_arm = "Arm C4"
-L.c4_arm_timer = "Timer"
-L.c4_arm_seconds = "Seconds until detonation:"
-L.c4_arm_attempts = "In disarm attempts, {num} of the 6 wires will cause instant detonation when cut."
+L.c4_arm = "Aufnahme Starten"
+L.c4_arm_timer = "Zeit"
+L.c4_arm_seconds = "Zeit bis zur Festnahme:"
+L.c4_arm_attempts = "Bei Entschärfungsversuchen, {num} von 6 Kabeln werden die Bombe zum explodieren bringen."
 
-L.c4_remove_title = "Removal"
-L.c4_remove_pickup = "Pick up C4"
-L.c4_remove_destroy1 = "Destroy C4"
+L.c4_remove_title = "Entfernung"
+L.c4_remove_pickup = "Bombe aufnehmen"
+L.c4_remove_destroy1 = "Bombe zerstören"
 L.c4_remove_destroy2 = "Confirm: destroy"
 
-L.c4_disarm = "Disarm C4"
-L.c4_disarm_cut = "Click to cut wire {num}"
+L.c4_disarm = "Bombe entschärfen"
+L.c4_disarm_cut = "Schneide Kabel {num} durch"
 
-L.c4_disarm_t = "Cut a wire to disarm the bomb. As you are Traitor, every wire is safe. Innocents don't have it so easy!"
-L.c4_disarm_owned = "Cut a wire to disarm the bomb. It's your bomb, so every wire will disarm it."
-L.c4_disarm_other = "Cut a safe wire to disarm the bomb. It will explode if you get it wrong!"
+L.c4_disarm_t = "Schneide ein Kabel durch, um die Bombe zu entschärfen. Als Traitarrrrr ist jedes Kabel sicher!"
+L.c4_disarm_owned = "Dein Bombenprank, jedes Kabel ist sicher."
+L.c4_disarm_other = "Ob du wirklich richtich stehst, siehst du wenn das Licht (nicht) angeht!"
 
-L.c4_status_armed = "ARMED"
-L.c4_status_disarmed = "DISARMED"
+L.c4_status_armed = "Gefährlich"
+L.c4_status_disarmed = "Nicht gefährlich"
 
 -- Visualizer -TODO
 L.vis_name = "Visualizer"
